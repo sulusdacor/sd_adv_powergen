@@ -1,0 +1,69 @@
+personal changelog for mod "[sd] advanced powergeneration" (sd_power)
+
+- 14/10/2016
+
+	- added abstract base building base, added marker for sections in xml thingsdef
+
+- 21/10/2016
+
+	- made nulcear reactor rotatable, goe not, since it messed up the placeworker
+	- made all things minified
+
+- 17/11/2016
+
+	- added bare bones def+research def for solar power
+	- added assemblies for solar power (texture still missing)
+
+- 18/11/2016
+
+	- added texture for adv solar panels
+	- reduced the blacklines in adv geothermal texture
+	- added sd_power_ for variables in assemblies
+	- added minifieable to solarpanels
+
+- 21/12/2016
+
+	- added note in about file for older mod version donwload in forum topic
+	- renamed some defs,folders, assemblies stuff variables etc. to sd_adv_powergen_ ...
+	- removed german language files
+	- set all buildings to no ai chill destination
+	- added mass for buildings
+	- set research to x 13 and 14 in the tab (after ship at the end)
+	- changed nuclear power to adv nuclar power (building+research)
+
+- 25/12/2016
+
+	- moved abstract into own base xml
+	- adjusted weights, still way over the material used to build, but should be better
+		adv wind: 500
+		adv solar: 450
+		adv geo: 1000
+		adv nuclear: 1250
+	- updated descriptions to changed windpower (6k -> 4k)
+	- updated german language files
+
+- 28/12/2016
+
+	- adjusted the costs for all the buildings to new market values in a16
+
+- 06/01/2017
+
+	- fixed the xml tag Worktobuild, had old one here, which resulted in instant buildtimes
+
+- 29/05/2017
+
+	- target version update in about file
+	- recompiled the assemblie, but no changes had to be done there
+	- still small error exception in miniaturiation of solar/nuclear power plants
+	- added chinesesimplyfied language files thx to WishingLaws
+
+- 29/12/2017
+
+	- update to b18
+	- root <Defs> fix
+	- added research tab
+	- adjusted costs overall:
+		- mostly adds adv component, changes other costs a bit to hold overall wealth value
+		- nuclear about 10k higher workcost
+	- removed ignore needs power xml tag
+	- recompiled code, but no changes there

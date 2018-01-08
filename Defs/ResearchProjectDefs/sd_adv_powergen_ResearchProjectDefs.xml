@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+  <ResearchProjectDef>
+    <defName>sd_adv_powergen_research_adv_geo</defName>
+    <label>advanced geothermal power</label>
+    <description>Allows colonists to build advanced geothermal power plants on top of steam geysers, for uninterrupted higher power..</description>
+    <baseCost>2500</baseCost>
+	<techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>GeothermalPower</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+			<researchViewX>1</researchViewX>
+			<researchViewY>3</researchViewY>
+	<tab>sd_adv_powergen_ResearchTab</tab>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>sd_adv_powergen_research_nuclear_power</defName>
+    <label>advanced nuclear power</label>
+    <description>Allows colonists to build advanced nuclear power plants anywhere, for unlimited uninterrupted unconditional power..</description>
+    <baseCost>3000</baseCost>
+	<techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>sd_adv_powergen_research_adv_geo</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+		<researchViewX>2</researchViewX>
+		<researchViewY>3</researchViewY>
+	<tab>sd_adv_powergen_ResearchTab</tab>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>sd_adv_powergen_research_adv_wind_turbine</defName>
+    <label>advanced wind turbine</label>
+    <description>Allows colonists to build advanced wind turbines.</description>
+    <baseCost>2000</baseCost>
+	<techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+	<researchViewX>1</researchViewX>
+	<researchViewY>2</researchViewY>
+	<tab>sd_adv_powergen_ResearchTab</tab>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>sd_adv_powergen_research_adv_solar</defName>
+    <label>advanced solar power</label>
+    <description>Allows colonists to build advanced solar panels.</description>
+    <baseCost>2000</baseCost>
+	<techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+	  <li>SolarPanels</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+	<researchViewX>1</researchViewX>
+	<researchViewY>1</researchViewY>
+	<tab>sd_adv_powergen_ResearchTab</tab>
+  </ResearchProjectDef>
+
+</Defs>
