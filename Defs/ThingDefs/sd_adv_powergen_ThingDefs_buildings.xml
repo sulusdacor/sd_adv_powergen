@@ -31,7 +31,7 @@
 		</statBases>
 	<tickerType>Normal</tickerType>
     <description>A wind-powered electrical generator. Requires a large clear space in front and behind for optimal air flow.
-	Energy Output: 4000 at max</description>
+	Energy Output: 6000 at max</description>
     <size>(5,2)</size>
 		<selectable>true</selectable>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
