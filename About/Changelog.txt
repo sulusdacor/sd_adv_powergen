@@ -71,3 +71,7 @@ personal changelog for mod "[sd] advanced powergeneration" (sd_power)
 10/01/2018
 
 	- adv winderturbine description -> 6k max not 4k
+
+14/01/2018
+
+	- added modsync file
