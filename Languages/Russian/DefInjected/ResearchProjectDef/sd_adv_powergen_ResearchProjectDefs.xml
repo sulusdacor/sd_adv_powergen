@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <sd_adv_powergen_research_adv_geo.label>Высокотехнологичный геотермальный генератор</sd_adv_powergen_research_adv_geo.label>
+  <sd_adv_powergen_research_adv_geo.description>Позволяет строить высокотехнологичные геотермальные генераторы на паровых гейзерах для получения большого количества энергии.</sd_adv_powergen_research_adv_geo.description>
+
+  <sd_adv_powergen_research_nuclear_power.label>Высокотехнологичная атомная электростанция</sd_adv_powergen_research_nuclear_power.label>
+  <sd_adv_powergen_research_nuclear_power.description>Позволяет строить высокотехнологичные атомные электростанции для получения неограниченного количества энергии.</sd_adv_powergen_research_nuclear_power.description>
+
+  <sd_adv_powergen_research_adv_wind_turbine.label>Высокотехнологичная ветровая турбина</sd_adv_powergen_research_adv_wind_turbine.label>
+  <sd_adv_powergen_research_adv_wind_turbine.description>Позволяет строить высокотехнологичные ветровые турбины.</sd_adv_powergen_research_adv_wind_turbine.description>
+
+  <sd_adv_powergen_research_adv_solar.label>Высокотехнологичная солнечная панель</sd_adv_powergen_research_adv_solar.label>
+  <sd_adv_powergen_research_adv_solar.description>Позволяет строить высокотехнологичные солнечные панели.</sd_adv_powergen_research_adv_solar.description>
+
+
+</LanguageData>
