@@ -75,3 +75,7 @@ personal changelog for mod "[sd] advanced powergeneration" (sd_power)
 14/01/2018
 
 	- added modsync file
+
+10/07/2018
+
+	- russian translation file added by Hanabishi from github
