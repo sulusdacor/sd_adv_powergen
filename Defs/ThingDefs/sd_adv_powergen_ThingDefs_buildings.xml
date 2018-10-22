@@ -39,8 +39,8 @@
     <costList>
       <Steel>100</Steel>
 	  <Plasteel>5</Plasteel>
-      <Component>3</Component>
-	  <AdvancedComponent>2</AdvancedComponent>
+      <ComponentIndustrial>3</ComponentIndustrial>
+	  <ComponentSpacer>2</ComponentSpacer>
     </costList>
 	<placeWorkers>
       <li>PlaceWorker_WindTurbine</li>
@@ -61,12 +61,18 @@
     <designationCategory>Power</designationCategory>
     <building>
 	  <ai_chillDestination>false</ai_chillDestination>
+	  <allowAutoroof>false</allowAutoroof>
     </building>
     <constructEffect>ConstructMetal</constructEffect>
     <researchPrerequisites>
 		<li>sd_adv_powergen_research_adv_wind_turbine</li>
 	</researchPrerequisites>
-	<minifiedDef>MinifiedFurniture</minifiedDef>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+	
   </ThingDef>
   
   <!--================================= adv solar =================================-->
@@ -105,8 +111,8 @@
     <costList>
       <Steel>100</Steel>
 	  <Plasteel>5</Plasteel>
-      <Component>5</Component>
-	  <AdvancedComponent>2</AdvancedComponent>
+      <ComponentIndustrial>5</ComponentIndustrial>
+	  <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <comps>
       <li Class="CompProperties_Power">
@@ -127,7 +133,11 @@
     <researchPrerequisites>
       <li>sd_adv_powergen_research_adv_solar</li>
     </researchPrerequisites>
-	<minifiedDef>MinifiedFurniture</minifiedDef>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	<thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
   </ThingDef>
   
   <!--================================= adv geothermal =================================-->
@@ -164,8 +174,8 @@
     <costList>
       <Steel>400</Steel>
 	  <Plasteel>40</Plasteel>
-      <Component>12</Component>
-	  <AdvancedComponent>4</AdvancedComponent>
+      <ComponentIndustrial>12</ComponentIndustrial>
+	  <ComponentSpacer>4</ComponentSpacer>
     </costList>
     <comps>
       <li Class="CompProperties_Power">
@@ -193,7 +203,11 @@
     <researchPrerequisites>
 		<li>sd_adv_powergen_research_adv_geo</li>
 	</researchPrerequisites>
-	<minifiedDef>MinifiedFurniture</minifiedDef>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	<thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
   </ThingDef>
   
   <!--================================= adv nuclear =================================-->
@@ -231,7 +245,7 @@
       <Steel>800</Steel>
 	  <Plasteel>100</Plasteel>
 	  <Uranium>250</Uranium>
-	  <AdvancedComponent>10</AdvancedComponent>
+	  <ComponentSpacer>10</ComponentSpacer>
     </costList>
     <comps>
       <li Class="CompProperties_Power">
@@ -256,7 +270,11 @@
     <researchPrerequisites>
 		<li>sd_adv_powergen_research_nuclear_power</li>
 	</researchPrerequisites>
-	<minifiedDef>MinifiedFurniture</minifiedDef>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	<thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
   </ThingDef>
   
   

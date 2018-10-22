@@ -79,3 +79,14 @@ personal changelog for mod "[sd] advanced powergeneration" (sd_power)
 10/07/2018
 
 	- russian translation file added by Hanabishi from github
+
+22/10/2018
+
+	Rimworld 1.0 update
+	- updated assembly
+	- xml fixes, update to 1.0
+	- added construction skill requirements, same as vanilla counterparts (nuclar=geo)
+	- components, just replaced with industrial/spacer variants
+	- added thincategorie power to all
+	- added allow autoroof false to adv windturbine
+	- for now removed modsync file, since modninja was replaced by another, havent looked into that
