@@ -90,3 +90,8 @@ personal changelog for mod "[sd] advanced powergeneration" (sd_power)
 	- added thincategorie power to all
 	- added allow autoroof false to adv windturbine
 	- for now removed modsync file, since modninja was replaced by another, havent looked into that
+
+13/11/2018
+
+	- added japanese translation from proxyer
+	- added spanish by CANALETA and spanish latin by CANALETA

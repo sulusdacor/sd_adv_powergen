@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <sd_adv_powergen_research_adv_geo.label>改良地熱発電</sd_adv_powergen_research_adv_geo.label>
+  <sd_adv_powergen_research_adv_geo.description>間欠泉の上部に、24時間発電する改良型地熱発電装置を建設できるようになります。</sd_adv_powergen_research_adv_geo.description>
+
+  <sd_adv_powergen_research_nuclear_power.label>原子力発電</sd_adv_powergen_research_nuclear_power.label>
+  <sd_adv_powergen_research_nuclear_power.description>どの場所にも建てられる、無条件で停止しない原子力発電装置を建設できるようになります。</sd_adv_powergen_research_nuclear_power.description>
+
+  <sd_adv_powergen_research_adv_wind_turbine.label>改良風力発電機</sd_adv_powergen_research_adv_wind_turbine.label>
+  <sd_adv_powergen_research_adv_wind_turbine.description>改良型の風力発電機を建設できるようになります。</sd_adv_powergen_research_adv_wind_turbine.description>
+
+  <sd_adv_powergen_research_adv_solar.label>改良太陽光発電</sd_adv_powergen_research_adv_solar.label>
+  <sd_adv_powergen_research_adv_solar.description>改良型の太陽光発電装置を建設できるようになります。</sd_adv_powergen_research_adv_solar.description>
+
+
+</LanguageData>
