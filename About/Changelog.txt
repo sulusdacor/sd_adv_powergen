@@ -95,3 +95,7 @@ personal changelog for mod "[sd] advanced powergeneration" (sd_power)
 
 	- added japanese translation from proxyer
 	- added spanish by CANALETA and spanish latin by CANALETA
+
+14/11/2018
+
+	- added missing jap languagge info xml file
