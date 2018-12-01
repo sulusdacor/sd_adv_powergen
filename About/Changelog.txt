@@ -99,3 +99,7 @@ personal changelog for mod "[sd] advanced powergeneration" (sd_power)
 14/11/2018
 
 	- added missing jap languagge info xml file
+
+01/12/2018
+
+	- adv watermill added

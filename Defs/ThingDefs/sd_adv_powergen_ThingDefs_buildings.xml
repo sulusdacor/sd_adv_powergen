@@ -277,5 +277,73 @@
     </thingCategories>
   </ThingDef>
   
+  <!--================================= adv water =================================-->
+  
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>sd_adv_powergen_WatermillGenerator</defName>
+    <label>advanced watermill generator</label>
+    <description>Produces electricity from a river. Must be placed with its wheel in moving water. If watermills are placed too close together, the turbulence they generate will interfere and reduce power generation.
+	Energy Output: 2200</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>sd_adv_powergen/sd_adv_powergen_watermill</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,6)</drawSize>
+      <shadowData>
+        <volume>(2.6,1,2.16)</volume>
+        <offset>(-0.20,0,0)</offset>
+      </shadowData>
+    </graphicData>
+    <castEdgeShadows>false</castEdgeShadows>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>1</fillPercent>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>8000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-20</Beauty>
+	  <Mass>1000</Mass>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <size>(5,6)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+      <Steel>150</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+	  <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlantWater</compClass>
+        <basePowerConsumption>-2200</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+	 <!-- sadly glower comp did not wanted to work :( -->
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <rotatable>true</rotatable>
+    <terrainAffordanceNeeded></terrainAffordanceNeeded> <!-- handled by the placeworker -->
+    <designationCategory>Power</designationCategory>
+    <placeWorkers>
+      <li>PlaceWorker_WatermillGenerator</li>
+    </placeWorkers>
+    <building>
+			<ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <constructEffect>ConstructWood</constructEffect>
+    <researchPrerequisites><li>WatermillGenerator</li></researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+  </ThingDef>
   
 	</Defs>
