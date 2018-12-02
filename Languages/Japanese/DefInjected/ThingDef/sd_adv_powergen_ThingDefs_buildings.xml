@@ -41,4 +41,14 @@
   <Frame_sd_adv_powergen_nuclear_power_plant.description>ウランから発電します。どこにでも設置できる。\n発電量: 20000</Frame_sd_adv_powergen_nuclear_power_plant.description>
 
 
+  <!-- adv water -->
+
+  <sd_adv_powergen_WatermillGenerator.label>水力発電 (改良型)</sd_adv_powergen_WatermillGenerator.label>
+  <sd_adv_powergen_WatermillGenerator.description>川から電力を生み出せます。水車は水路に配置しなければなりません。もし水車同士を近くに配置すると、乱流が発生して他の水力発電器の発電効率が落ちるでしょう。\n発電量：2200</sd_adv_powergen_WatermillGenerator.description>
+  <sd_adv_powergen_WatermillGenerator_Blueprint.label>水力発電(改良型)(設計)</sd_adv_powergen_WatermillGenerator_Blueprint.label>
+  <sd_adv_powergen_WatermillGenerator_Blueprint_Install.label>水力発電(改良型)(移動先)</sd_adv_powergen_WatermillGenerator_Blueprint_Install.label>
+  <sd_adv_powergen_WatermillGenerator_Frame.label>水力発電(改良型)(施工)</sd_adv_powergen_WatermillGenerator_Frame.label>
+  <sd_adv_powergen_WatermillGenerator_Frame.description>川から電力を生み出せます。水車は水路に配置しなければなりません。もし水車同士を近くに配置すると、乱流が発生して他の水力発電器の発電効率が落ちるでしょう。\n発電量：2200</sd_adv_powergen_WatermillGenerator_Frame.description>
+
+
 </LanguageData>

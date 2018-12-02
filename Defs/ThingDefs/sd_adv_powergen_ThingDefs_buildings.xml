@@ -302,7 +302,7 @@
     <blockWind>true</blockWind>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
 		<fillPercent>1</fillPercent>
-    <blockLight>true</blockLight>
+    <!--  <blockLight>true</blockLight> -->
     <canOverlapZones>false</canOverlapZones>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
@@ -325,7 +325,10 @@
         <basePowerConsumption>-2200</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
       </li>
-	 <!-- sadly glower comp did not wanted to work :( -->
+	 <li Class="CompProperties_Glower">
+        <glowRadius>7</glowRadius>
+        <glowColor>(248,151,73,0)</glowColor>
+      </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
     <rotatable>true</rotatable>

@@ -103,3 +103,8 @@ personal changelog for mod "[sd] advanced powergeneration" (sd_power)
 01/12/2018
 
 	- adv watermill added
+
+02/12/2018
+
+	- added small glow for watermill
+	. added japanese for watermill from Proxyer
