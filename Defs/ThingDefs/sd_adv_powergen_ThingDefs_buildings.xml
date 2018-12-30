@@ -335,7 +335,7 @@
     <terrainAffordanceNeeded></terrainAffordanceNeeded> <!-- handled by the placeworker -->
     <designationCategory>Power</designationCategory>
     <placeWorkers>
-      <li>PlaceWorker_WatermillGenerator</li>
+      <li>sd_adv_powergen.PlaceWorker_AdvWatermillGenerator</li>
     </placeWorkers>
     <building>
 			<ai_chillDestination>false</ai_chillDestination>
