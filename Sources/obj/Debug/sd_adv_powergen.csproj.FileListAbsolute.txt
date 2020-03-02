@@ -1,0 +1,10 @@
+F:\eigene Rimworld Mods\sd_power\Source\sd_power\obj\Debug\sd_adv_powergen.csprojResolveAssemblyReference.cache
+F:\eigene Rimworld Mods\sd_power\Assemblies\sd_adv_powergen.dll
+F:\eigene Rimworld Mods\sd_power\Source\sd_power\obj\Debug\sd_adv_powergen.dll
+F:\eigene Rimworld Mods\sd_adv_powergen\Assemblies\sd_adv_powergen.dll
+F:\eigene Rimworld Mods\sd_adv_powergen\Source\sd_power\obj\Debug\sd_adv_powergen.csprojResolveAssemblyReference.cache
+F:\eigene Rimworld Mods\sd_adv_powergen\Source\sd_power\obj\Debug\sd_adv_powergen.dll
+D:\Jeux\Steam\steamapps\common\RimWorld [version-1.1] (Bob Lenon)\Mods\sd_adv_powergen\Sources\obj\Debug\sd_adv_powergen.csprojAssemblyReference.cache
+D:\Jeux\Steam\steamapps\common\RimWorld [version-1.1] (Bob Lenon)\Mods\sd_adv_powergen\Sources\obj\Debug\sd_adv_powergen.dll
+D:\Jeux\Steam\steamapps\common\RimWorld [version-1.1] (Bob Lenon)\Mods\sd_adv_powergen\v1.1\Assemblies\sd_adv_powergen.dll
+D:\Jeux\Steam\steamapps\common\RimWorld [version-1.1] (Bob Lenon)\Mods\sd_adv_powergen\Sources\obj\Debug\sd_adv_powergen.csproj.CopyComplete

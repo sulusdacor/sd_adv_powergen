@@ -1,0 +1,3 @@
+F:\eigene Rimworld Mods\sd_power\Assemblies\sd_power.dll
+F:\eigene Rimworld Mods\sd_power\Source\sd_power\obj\Debug\sd_power.csprojResolveAssemblyReference.cache
+F:\eigene Rimworld Mods\sd_power\Source\sd_power\obj\Debug\sd_power.dll
