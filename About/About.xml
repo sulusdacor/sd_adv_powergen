@@ -2,7 +2,11 @@
 <ModMetaData>
 	<name>[sd] advanced powergeneration</name>
 	<author>sulusdacor</author>
-	<targetVersion>1.0.2059</targetVersion>
+    <packageId>sulusdacor.advanced.powergeneration</packageId>
+    <supportedVersions>
+      <li>1.0</li>
+      <li>1.1</li>
+    </supportedVersions>
 	<url>https://ludeon.com/forums/index.php?topic=26276.0</url>
 	<description>"advanced powergeneration"
 	Ver.: 1.0-1.1.2

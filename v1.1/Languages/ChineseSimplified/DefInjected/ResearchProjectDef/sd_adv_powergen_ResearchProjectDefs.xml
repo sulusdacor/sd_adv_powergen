@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <sd_adv_powergen_research_adv_geo.label>sd:先地热能源</sd_adv_powergen_research_adv_geo.label>
+  <sd_adv_powergen_research_adv_geo.description>允许殖民者在蒸气喷泉之上建造先进的地热发电厂，以获取不间断的能源。</sd_adv_powergen_research_adv_geo.description>
+
+  <sd_adv_powergen_research_nuclear_power.label>sd:先进核电</sd_adv_powergen_research_nuclear_power.label>
+  <sd_adv_powergen_research_nuclear_power.description>允许殖民者在任何地方建造先进的核电站，无限制地获取能源。</sd_adv_powergen_research_nuclear_power.description>
+
+  <sd_adv_powergen_research_adv_wind_turbine.label>sd:先进风力发电</sd_adv_powergen_research_adv_wind_turbine.label>
+  <sd_adv_powergen_research_adv_wind_turbine.description>允许殖民者建造先进的风力发电机。</sd_adv_powergen_research_adv_wind_turbine.description>
+
+  <sd_adv_powergen_research_adv_solar.label>sd:先进太阳能发电</sd_adv_powergen_research_adv_solar.label>
+  <sd_adv_powergen_research_adv_solar.description>允许殖民者建造先进的太阳能发电板。</sd_adv_powergen_research_adv_solar.description>
+
+
+</LanguageData>

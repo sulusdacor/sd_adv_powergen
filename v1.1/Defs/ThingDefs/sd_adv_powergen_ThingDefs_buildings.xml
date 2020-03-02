@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!--================================= adv wind =================================-->
+
+<ThingDef ParentName="BuildingBase">
+    <defName>sd_adv_powergen_adv_wind_turbine</defName>
+    <label>advanced wind turbine</label>
+    <thingClass>Building</thingClass>
+    <graphicData>
+		<texPath>sd_adv_powergen/sd_adv_powergen_adv_wind_turbine</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(5,2)</drawSize>
+      <shadowData>
+        <volume>(0.2, 1.0, 0.8)</volume>
+      </shadowData>
+      <damageData>
+        <rect>(2,0.15,1,1.4)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+	<fillPercent>0.5</fillPercent>
+    <statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>6500</WorkToBuild>
+			<Flammability>0.4</Flammability>
+			<Beauty>-12</Beauty>
+			<Mass>500</Mass>
+		</statBases>
+	<tickerType>Normal</tickerType>
+    <description>A wind-powered electrical generator. Requires a large clear space in front and behind for optimal air flow.
+	Energy Output: 6000 at max</description>
+    <size>(5,2)</size>
+		<selectable>true</selectable>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<rotatable>true</rotatable>
+    <costList>
+      <Steel>100</Steel>
+	  <Plasteel>5</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+	  <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+	<placeWorkers>
+      <li>PlaceWorker_WindTurbine</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Power">
+				<compClass>CompPowerPlantWind</compClass>
+				<basePowerConsumption>-4000</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+      </li>
+	  <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(1,213,238,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <building>
+	  <ai_chillDestination>false</ai_chillDestination>
+	  <allowAutoroof>false</allowAutoroof>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+		<li>sd_adv_powergen_research_adv_wind_turbine</li>
+	</researchPrerequisites>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+	
+  </ThingDef>
+  
+  <!--================================= adv solar =================================-->
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>sd_adv_powergen_adv_solar_generator</defName>
+    <label>advanced solar generator</label>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>sd_adv_powergen/sd_adv_powergen_adv_solarpanel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+      <damageData>
+        <rect>(0,0.6,4,2.8)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+      <WorkToBuild>5000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+	  <Mass>450</Mass>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>Produces electricity from sunlight. Does not work in the dark. Energy Output: 3400 at max</description>
+    <size>(4,4)</size>
+		<selectable>true</selectable>
+		<rotatable>true</rotatable>
+    <building>
+	  <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <costList>
+      <Steel>100</Steel>
+	  <Plasteel>5</Plasteel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+	  <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>sd_adv_powergen.sd_adv_powergen_CompAdvPowerPlantSolar</compClass>
+        <basePowerConsumption>-1</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+	  <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(1,213,238,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>sd_adv_powergen_research_adv_solar</li>
+    </researchPrerequisites>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	<thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <!--================================= adv geothermal =================================-->
+  
+<ThingDef ParentName="BuildingBase">
+    <defName>sd_adv_powergen_adv_geothermal_generator</defName>
+    <label>advanced geothermal generator</label>
+    <thingClass>Building</thingClass>
+    <graphicData>
+		<texPath>sd_adv_powergen/sd_adv_powergen_adv_geothermal_generator</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(6,6)</drawSize>
+      <damageData>
+        <rect>(0.3,0,5.4,6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <pathCost>70</pathCost>
+	<passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <statBases>
+      <MaxHitPoints>750</MaxHitPoints>
+      <WorkToBuild>12000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-40</Beauty>
+	  <Mass>1000</Mass>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>Produces electricity from geothermal steam geysers. Must be placed on a geyser.
+	Energy Output: 7500</description>
+    <size>(6,6)</size>
+	<selectable>true</selectable>
+    <costList>
+      <Steel>400</Steel>
+	  <Plasteel>40</Plasteel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+	  <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlantSteam</compClass>
+        <basePowerConsumption>-7500</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+	  <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(1,174,238,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <rotatable>false</rotatable>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <placeWorkers>
+      <li>PlaceWorker_OnSteamGeyser</li>
+    </placeWorkers>
+    <building>
+      <soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+	  <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+		<li>sd_adv_powergen_research_adv_geo</li>
+	</researchPrerequisites>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	<thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <!--================================= adv nuclear =================================-->
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>sd_adv_powergen_nuclear_power_plant</defName>
+    <label>advanced nuclear power plant</label>
+    <thingClass>Building</thingClass>
+    <graphicData>
+		<texPath>sd_adv_powergen/sd_adv_powergen_nuclear_power_plant</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(6,6)</drawSize>
+      <damageData>
+        <rect>(0.3,0,5.4,6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <pathCost>70</pathCost>
+	<passability>PassThroughOnly</passability>
+	<castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>33000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-40</Beauty>
+			<Mass>1250</Mass>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>Produces electricity from uranium. Can be placed anywhere.
+	Energy Output: 20000</description>
+    <size>(6,6)</size>
+	<selectable>true</selectable>
+    <costList>
+      <Steel>800</Steel>
+	  <Plasteel>100</Plasteel>
+	  <Uranium>250</Uranium>
+	  <ComponentSpacer>10</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-20000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+	  <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(46,228,161,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <rotatable>True</rotatable>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <building>
+      <soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+	  <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+		<li>sd_adv_powergen_research_nuclear_power</li>
+	</researchPrerequisites>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	<thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <!--================================= adv water =================================-->
+  
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>sd_adv_powergen_WatermillGenerator</defName>
+    <label>advanced watermill generator</label>
+    <description>Produces electricity from a river. Must be placed with its wheel in moving water. If watermills are placed too close together, the turbulence they generate will interfere and reduce power generation.
+	Energy Output: 2200</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>sd_adv_powergen/sd_adv_powergen_watermill</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,6)</drawSize>
+      <shadowData>
+        <volume>(2.6,1,2.16)</volume>
+        <offset>(-0.20,0,0)</offset>
+      </shadowData>
+    </graphicData>
+    <castEdgeShadows>false</castEdgeShadows>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>1</fillPercent>
+    <!--  <blockLight>true</blockLight> -->
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>8000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-20</Beauty>
+	  <Mass>1000</Mass>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <size>(5,6)</size>
+    <costList>
+      <WoodLog>10</WoodLog>
+      <Steel>150</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+	  <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlantWater</compClass>
+        <basePowerConsumption>-2200</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+	 <li Class="CompProperties_Glower">
+        <glowRadius>7</glowRadius>
+        <glowColor>(248,151,73,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <rotatable>true</rotatable>
+    <terrainAffordanceNeeded></terrainAffordanceNeeded> <!-- handled by the placeworker -->
+    <designationCategory>Power</designationCategory>
+    <placeWorkers>
+      <li>sd_adv_powergen.PlaceWorker_AdvWatermillGenerator</li>
+    </placeWorkers>
+    <building>
+			<ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <constructEffect>ConstructWood</constructEffect>
+    <researchPrerequisites><li>WatermillGenerator</li></researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+  </ThingDef>
+  
+	</Defs>

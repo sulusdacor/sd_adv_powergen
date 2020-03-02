@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  
+  <!-- power stuffs -->
+
+  
+  <sd_adv_powergen_adv_wind_turbine.label>Fortschrittliche Windturbine</sd_adv_powergen_adv_wind_turbine.label>
+  <sd_adv_powergen_adv_wind_turbine.description>Ein windbetriebener, elektrischer Generator. Benötigt eine große freie Fläche vor und hinter ihm, um eine optimale Windströmung zu gewährleisten. Stromerzeugung: ~4000 at max</sd_adv_powergen_adv_wind_turbine.description>
+
+  <sd_adv_powergen_adv_geothermal_generator.label>Fortschrittlicher Geothermal Generator</sd_adv_powergen_adv_geothermal_generator.label>
+  <sd_adv_powergen_adv_geothermal_generator.description>Produziert Strom mit Hilfe eines Dampfgeysires. Muss auf einem Geysir platziert werden. Stromerzeugung: 7500</sd_adv_powergen_adv_geothermal_generator.description>
+
+  <sd_adv_powergen_nuclear_power_plant.label>Kernreaktor-Kraftwerk</sd_adv_powergen_nuclear_power_plant.label>
+  <sd_adv_powergen_nuclear_power_plant.description>Produziert Strom aus Uranium. Kann überall gebaut werden. Stromerzeugung: 20000</sd_adv_powergen_nuclear_power_plant.description>
+
+  <sd_adv_powergen_adv_solar_generator.label>Fortschrittliches Solarkraftwerk</sd_adv_powergen_adv_solar_generator.label>
+  <sd_adv_powergen_adv_solar_generator.description>Produziert Strom mit Hilfe von Sonnenstrahlung. Kann überall gebaut werden. Stromerzeugung: 3400 at max</sd_adv_powergen_adv_solar_generator.description>
+
+</LanguageData>

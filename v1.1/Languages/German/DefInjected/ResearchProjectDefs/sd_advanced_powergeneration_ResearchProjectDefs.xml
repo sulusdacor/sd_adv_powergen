@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<sd_adv_powergen_research_adv_geo.label>Fortschrittliche Geothermalenergie</sd_adv_powergen_research_adv_geo.label>
+	<sd_adv_powergen_research_adv_geo.description>Schaltet die Fortschrittliche Geothermal-Technologie frei. Erlaubt den Bau von Geothermal-Kraftwerken auf Dampf-Geysiren für eine kontinuierlich höhere Stromerzeugung.</sd_adv_powergen_research_adv_geo.description>
+	
+	<sd_adv_powergen_research_nuclear_power.label>Atomenergie</sd_adv_powergen_research_nuclear_power.label>
+	<sd_adv_powergen_research_nuclear_power.description>Schaltet die Fortschrittliche Kernfusions-Technologie frei. Erlaubt den Bau von Kernreaktor-Kraftwerken für eine unbegrenzte uneingeschränkte kontinuierlich höhere Stromerzeugung.</sd_adv_powergen_research_nuclear_power.description>
+	
+	<sd_adv_powergen_research_adv_wind_turbine.label>Fortschrittliche Windenergie</sd_adv_powergen_research_adv_wind_turbine.label>
+	<sd_adv_powergen_research_adv_wind_turbine.description>Schaltet die Fortschrittliche Windtechnologie frei. Erlaubt den Bau von Fortschrittschlichen Windturbinen.</sd_adv_powergen_research_adv_wind_turbine.description>
+	
+	<sd_adv_powergen_research_adv_solar.label>Fortschrittliche Solarenergie</sd_adv_powergen_research_adv_solar.label>
+	<sd_adv_powergen_research_adv_solar.description>Schaltet die Fortschrittliche Solartechnologie frei. Erlaubt den Bau von Fortschrittschlichen Solarkraftwerken.</sd_adv_powergen_research_adv_solar.description>
+	
+</LanguageData>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- adv wind -->
+
+  <sd_adv_powergen_adv_wind_turbine.label>風力発電機(改良型)</sd_adv_powergen_adv_wind_turbine.label>
+  <sd_adv_powergen_adv_wind_turbine.description>風力発電装置です。最適な風のながれが必要な為、風力発電機の前後には、大きく開けた土地が必要です。\n発電量: 最大 4000</sd_adv_powergen_adv_wind_turbine.description>
+  <Blueprint_sd_adv_powergen_adv_wind_turbine.label>風力発電機(改良型)(設計)</Blueprint_sd_adv_powergen_adv_wind_turbine.label>
+  <Blueprint_Install_sd_adv_powergen_adv_wind_turbine.label>風力発電機(改良型)(移動先)</Blueprint_Install_sd_adv_powergen_adv_wind_turbine.label>
+  <Frame_sd_adv_powergen_adv_wind_turbine.label>風力発電機(改良型)(施工)</Frame_sd_adv_powergen_adv_wind_turbine.label>
+  <Frame_sd_adv_powergen_adv_wind_turbine.description>風力発電装置です。最適な風のながれが必要な為、風力発電機の前後には、大きく開けた土地が必要です。\n発電量: 最大 4000</Frame_sd_adv_powergen_adv_wind_turbine.description>
+
+
+  <!-- adv solar -->
+
+  <sd_adv_powergen_adv_solar_generator.label>太陽光発電(改良型)</sd_adv_powergen_adv_solar_generator.label>
+  <sd_adv_powergen_adv_solar_generator.description>太陽光発電装置です。暗闇の中で働かない。\n発電量: 最大 3400</sd_adv_powergen_adv_solar_generator.description>
+  <Blueprint_sd_adv_powergen_adv_solar_generator.label>太陽光発電(改良型)(設計)</Blueprint_sd_adv_powergen_adv_solar_generator.label>
+  <Blueprint_Install_sd_adv_powergen_adv_solar_generator.label>太陽光発電(改良型)(移動先)</Blueprint_Install_sd_adv_powergen_adv_solar_generator.label>
+  <Frame_sd_adv_powergen_adv_solar_generator.label>太陽光発電(改良型)(施工)</Frame_sd_adv_powergen_adv_solar_generator.label>
+  <Frame_sd_adv_powergen_adv_solar_generator.description>太陽光発電装置です。暗闇の中で働かない。\n発電量: 最大 3400</Frame_sd_adv_powergen_adv_solar_generator.description>
+
+
+  <!-- adv geothermal -->
+
+  <sd_adv_powergen_adv_geothermal_generator.label>地熱発電(改良型)</sd_adv_powergen_adv_geothermal_generator.label>
+  <sd_adv_powergen_adv_geothermal_generator.description>間欠泉の蒸気を使って発電する為、間欠泉の上にしか設置できません。\n発電量: 7500</sd_adv_powergen_adv_geothermal_generator.description>
+  <Blueprint_sd_adv_powergen_adv_geothermal_generator.label>地熱発電(改良型)(設計)</Blueprint_sd_adv_powergen_adv_geothermal_generator.label>
+  <Blueprint_Install_sd_adv_powergen_adv_geothermal_generator.label>地熱発電(改良型)(移動先)</Blueprint_Install_sd_adv_powergen_adv_geothermal_generator.label>
+  <Frame_sd_adv_powergen_adv_geothermal_generator.label>地熱発電(改良型)(施工)</Frame_sd_adv_powergen_adv_geothermal_generator.label>
+  <Frame_sd_adv_powergen_adv_geothermal_generator.description>間欠泉の蒸気を使って発電する為、間欠泉の上にしか設置できません。\n発電量: 7500</Frame_sd_adv_powergen_adv_geothermal_generator.description>
+
+
+  <!-- adv nuclear -->
+
+  <sd_adv_powergen_nuclear_power_plant.label>原子力発電</sd_adv_powergen_nuclear_power_plant.label>
+  <sd_adv_powergen_nuclear_power_plant.description>ウランから発電します。どこにでも設置できる。\n発電量: 20000</sd_adv_powergen_nuclear_power_plant.description>
+  <Blueprint_sd_adv_powergen_nuclear_power_plant.label>原子力発電(設計)</Blueprint_sd_adv_powergen_nuclear_power_plant.label>
+  <Blueprint_Install_sd_adv_powergen_nuclear_power_plant.label>原子力発電(移動先)</Blueprint_Install_sd_adv_powergen_nuclear_power_plant.label>
+  <Frame_sd_adv_powergen_nuclear_power_plant.label>原子力発電(施工)</Frame_sd_adv_powergen_nuclear_power_plant.label>
+  <Frame_sd_adv_powergen_nuclear_power_plant.description>ウランから発電します。どこにでも設置できる。\n発電量: 20000</Frame_sd_adv_powergen_nuclear_power_plant.description>
+
+
+  <!-- adv water -->
+
+  <sd_adv_powergen_WatermillGenerator.label>水力発電 (改良型)</sd_adv_powergen_WatermillGenerator.label>
+  <sd_adv_powergen_WatermillGenerator.description>川から電力を生み出せます。水車は水路に配置しなければなりません。もし水車同士を近くに配置すると、乱流が発生して他の水力発電器の発電効率が落ちるでしょう。\n発電量：2200</sd_adv_powergen_WatermillGenerator.description>
+  <sd_adv_powergen_WatermillGenerator_Blueprint.label>水力発電(改良型)(設計)</sd_adv_powergen_WatermillGenerator_Blueprint.label>
+  <sd_adv_powergen_WatermillGenerator_Blueprint_Install.label>水力発電(改良型)(移動先)</sd_adv_powergen_WatermillGenerator_Blueprint_Install.label>
+  <sd_adv_powergen_WatermillGenerator_Frame.label>水力発電(改良型)(施工)</sd_adv_powergen_WatermillGenerator_Frame.label>
+  <sd_adv_powergen_WatermillGenerator_Frame.description>川から電力を生み出せます。水車は水路に配置しなければなりません。もし水車同士を近くに配置すると、乱流が発生して他の水力発電器の発電効率が落ちるでしょう。\n発電量：2200</sd_adv_powergen_WatermillGenerator_Frame.description>
+
+
+</LanguageData>
